@@ -1,0 +1,19 @@
+ git init                                                                                                        
+ git status                                                                                                      
+ git add <testing.py>                                                                                            
+ git add testing.py                                                                                              
+ git status                                                                                                      
+ git rm --cached testing.py                                                                                      
+ git status                                                                                                      
+ git add testing.py                                                                                              
+ git status                                                                                                      
+ git commit -m "added testing files"                                                                             
+ git remote add origin https://github.com/Debojyotidas1/github.git                                               
+ rm testing.py                                                                                                   
+ git restore                                                                                                     
+ git restore testing.py                                                                                          
+ rm testing.py                                                                                                   
+ git init                                                                                                        
+ git restore testing.py                                                                                          
+ git status                                                                                                      
+ hello
